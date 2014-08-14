@@ -8,7 +8,8 @@ $url = "http://en.kingofsat.net/pos-19.2E.php";
 $url = "src.html";
 //
 // // Read in a page
-$content = scraperwiki::scrape($url);
+//$content = scraperwiki::scrape($url);
+$content = file_get_contents($url);
 //
 // // Find something on the page using css selectors
 $html = new simple_html_dom();
