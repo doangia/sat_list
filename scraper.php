@@ -4,7 +4,7 @@
 
 require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
-$url = "";
+$url = "http://en.kingofsat.net/pos-19.2E.php";
 //
 // // Read in a page
 $content = scraperwiki::scrape($url);
